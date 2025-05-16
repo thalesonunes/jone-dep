@@ -1,0 +1,104 @@
+[
+  {
+    "project": "webflux-course",
+    "requirements": {
+      "java": "11",
+      "kotlin": "1.9.0",
+      "gradle": "7.6.1",
+      "spring_boot": "3.0.1"
+    },
+    "dependencies": [
+      {
+        "group": "org.projectlombok",
+        "name": "lombok-mapstruct-binding",
+        "version": "0.2.0",
+        "configuration": "implementation",
+        "declaration": "implementation \"org.projectlombok:lombok-mapstruct-binding:0.2.0\""
+      },
+      {
+        "group": "org.mapstruct",
+        "name": "mapstruct",
+        "version": "1.5.3.Final",
+        "configuration": "implementation",
+        "declaration": "implementation 'org.mapstruct:mapstruct:1.5.3.Final'"
+      },
+      {
+        "group": "org.mapstruct",
+        "name": "mapstruct-processor",
+        "version": "1.5.3.Final",
+        "configuration": "annotationProcessor",
+        "declaration": "annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'"
+      }
+    ]
+  },
+  {
+    "project": "kotlin-estudos",
+    "requirements": {
+      "java": "11",
+      "kotlin": "1.9.0",
+      "gradle": "8.2",
+      "spring_boot": "3.1.2"
+    },
+    "dependencies": []
+  },
+  {
+    "project": "Prog4-CotacaoApp",
+    "requirements": {
+      "java": "11",
+      "kotlin": "1.9.0",
+      "gradle": "7.2",
+      "spring_boot": "3.1.2"
+    },
+    "dependencies": []
+  },
+  {
+    "project": "Prog4-ChatApplication",
+    "requirements": {
+      "java": "11",
+      "kotlin": "1.9.0",
+      "gradle": "7.2",
+      "spring_boot": "3.1.2"
+    },
+    "dependencies": [
+      {
+        "group": "com.google.gms",
+        "name": "google-services",
+        "version": "4.3.10",
+        "configuration": "classpath",
+        "declaration": "classpath 'com.google.gms:google-services:4.3.10'"
+      }
+    ]
+  },
+  {
+    "project": "spring-petclinic",
+    "requirements": {
+      "java": "17",
+      "kotlin": "1.9.0",
+      "gradle": "8.10.2",
+      "spring_boot": "3.4.2"
+    },
+    "dependencies": [
+      {
+        "group": "org.webjars",
+        "name": "webjars-locator-lite",
+        "version": "1.0.1",
+        "configuration": "runtimeOnly",
+        "declaration": "runtimeOnly \"org.webjars:webjars-locator-lite:1.0.1\""
+      },
+      {
+        "group": "org.webjars.npm",
+        "name": "bootstrap",
+        "version": "5.3.3",
+        "configuration": "runtimeOnly",
+        "declaration": "runtimeOnly \"org.webjars.npm:bootstrap:5.3.3\""
+      },
+      {
+        "group": "org.webjars.npm",
+        "name": "font-awesome",
+        "version": "4.7.0",
+        "configuration": "runtimeOnly",
+        "declaration": "runtimeOnly \"org.webjars.npm:font-awesome:4.7.0\""
+      }
+    ]
+  }
+]
